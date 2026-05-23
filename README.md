@@ -1,6 +1,6 @@
 
-📌 Prodigy_SD_01
+ PRODIGY_SD_01
 
 
 
-🌡️ Temperature Conversion Program
+Temperature Conversion Program using java
