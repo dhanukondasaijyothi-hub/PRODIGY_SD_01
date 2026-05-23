@@ -1,67 +1,80 @@
-# 🌡️ Temperature Conversion Program
+🌡️ Temperature Conversion Program
 
-A simple and beginner-friendly Java console application that converts temperature values between Celsius, Fahrenheit, and Kelvin using a menu-driven interface.
+A simple Java console application that converts temperature values between Celsius, Fahrenheit, and Kelvin using a menu-driven approach.
 
-This project is designed to help beginners understand core Java programming concepts such as user input handling, conditional logic, arithmetic operations, and switch-case statements.
-
----
-
-## 🚀 Features
-
-- ✅ Convert Celsius to Fahrenheit and Kelvin
-- ✅ Convert Fahrenheit to Celsius and Kelvin
-- ✅ Convert Kelvin to Celsius and Fahrenheit
-- ✅ Simple menu-driven console application
-- ✅ Accurate temperature conversion formulas
-- ✅ Beginner-friendly Java project
+This project is developed using basic Java concepts and is ideal for beginners who want to practice console-based programming and logical problem-solving.
 
 ---
 
-## 📌 Overview
+🚀 Features
 
-The Temperature Conversion Program allows users to select a temperature unit and convert it into other units instantly.
-
-The application uses:
-- `Scanner` class for user input
-- `switch-case` statements for menu handling
-- Mathematical formulas for temperature conversion
-
-This project is ideal for beginners who want to practice Java fundamentals and improve problem-solving skills.
+- Convert Celsius to Fahrenheit and Kelvin
+- Convert Fahrenheit to Celsius and Kelvin
+- Convert Kelvin to Celsius and Fahrenheit
+- Menu-driven console interface
+- User input using `Scanner`
+- Simple and beginner-friendly Java project
 
 ---
 
-## 🧮 Temperature Conversion Formulas
+📌 Project Description
+
+The Temperature Conversion Program allows users to choose a temperature unit and convert the entered value into the remaining two temperature units.
+
+The program uses:
+- Java `Scanner` class for user input
+- `switch-case` statements for menu selection
+- Mathematical formulas for accurate temperature conversion
+
+This project helps beginners understand:
+- Variables and Data Types
+- User Input Handling
+- Arithmetic Operations
+- Switch Case Statements
+- Console Application Development
+
+---
+
+🧮 Temperature Conversion Formulas
 
 ### Celsius to Fahrenheit
-```math
+
 F = (C \times \frac{9}{5}) + 32
-```
+
 
 ### Celsius to Kelvin
-```math
+
 K = C + 273.15
-```
+
 
 ### Fahrenheit to Celsius
-```math
+
 C = (F - 32) \times \frac{5}{9}
-```
+
+
+### Fahrenheit to Kelvin
+
+K = ((F - 32) \times \frac{5}{9}) + 273.15
 
 ### Kelvin to Celsius
-```math
+
 C = K - 273.15
-```
+
+### Kelvin to Fahrenheit
+
+F = (C \times \frac{9}{5}) + 32
+
 
 ---
 
-## 💻 Sample Output
+💻 Sample Output
 
-```text
+
 TEMPERATURE CONVERSION PROGRAM
 
-1. Celsius
-2. Fahrenheit
-3. Kelvin
+1.Celsius
+2.Fahrenheit
+3.kelvin
 
 Enter Your Choice : 1
 
@@ -69,53 +82,41 @@ Enter Temperature in Celsius : 25
 
 Temperature in Fahrenheit : 77.0
 Temperature in Kelvin : 298.15
-```
 
 ---
 
-## ⚙️ How to Run
+⚙️ How to Run
 
-### 1️⃣ Compile the Program
+ 1️⃣ Compile the Program
 
-```bash
 javac TemperatureConversionProgram.java
-```
 
-### 2️⃣ Run the Program
+2️⃣ Run the Program
 
-```bash
 java TemperatureConversionProgram
-```
 
 ---
 
-## 🎯 Project Purpose
-
-This project was created to strengthen basic Java programming skills and gain hands-on experience in developing console-based applications.
-
----
-
-## 🛠️ Technologies Used
+🛠️ Technologies Used
 
 - Java
 - VS Code / Any Java IDE
 
 ---
 
-## 👩‍💻 Author
+🎯 Learning Outcomes
 
-**Sai Jyothi**
+This project helps in understanding:
+- Java Basics
+- Conditional Statements
+- Menu-Driven Programs
+- Mathematical Calculations
+- User Interaction in Console Applications
 
 ---
 
-## 📚 Learning Outcomes
+👩‍💻 Author
 
-Through this project, beginners can learn:
-- Java syntax and structure
-- User input handling
-- Conditional statements
-- Switch-case implementation
-- Mathematical calculations in Java
-- Console application development
+Dhanukonda Sai Jyothi
 
 ---
